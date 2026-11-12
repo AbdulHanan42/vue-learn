@@ -1,5 +1,15 @@
-<script setup></script>
+<script setup>
+import { ref } from 'vue'
+
+const count = ref(0)
+
+function increment() {
+  count.value++
+}
+</script>
+
 <template>
-    <h1>Navbar component</h1>
+  <button @click="increment">Click here!
+    {{ count }}
+  </button>
 </template>
-<style scoped></style>
