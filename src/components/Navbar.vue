@@ -6,10 +6,16 @@ const count = ref(0)
 function increment() {
   count.value++
 }
+function decrement() {
+  count.value--
+}
 </script>
 
 <template>
   <button @click="increment">Click here!
+    {{ count }}
+  </button>
+  <button @click="decrement">Click here!
     {{ count }}
   </button>
 </template>
