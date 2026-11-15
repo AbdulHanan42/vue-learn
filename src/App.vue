@@ -2,6 +2,7 @@
 import Aboutclass from '@/components/Aboutclass.vue'
 import Hellocomp from '@/components/HelloComp.vue'
 import Navbar from '@/components/Navbar.vue'
+import Classbind from '@/components/Classbind.vue'
 </script>
 
 <template>
@@ -9,5 +10,6 @@ import Navbar from '@/components/Navbar.vue'
     <Aboutclass />
  <Hellocomp />
  <Navbar />
+ <Classbind />
  
 </template>
