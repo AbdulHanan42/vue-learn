@@ -1,26 +1,25 @@
 <script setup>
 import { ref } from 'vue'
-let role = ref('admin')
+const role = ref ('admin')
 const count = ref(0)
 
 function increment() {
-  count.value++
+    count.value++
 }
 function decrement() {
   count.value--
 }
 setTimeout(() => {
   role.value = 'HR'
-}, 2000)
-console.log('role', role.value)
+}, 5000)
 </script>
 
 <template>
-  <button @click="increment">Click here!
-    {{ count }}
-  </button>
-  <button @click="decrement">Click here!
-    {{ count }}
-  </button>
-  <p>Current role: {{ role }}</p>
+ <button @click="increment">Increment Value!</button>
+ <!--<p>{{ count }}</p> -->
+ <button @click="decrement">Decrement Value!</button>
+ <p>{{ count }}</p>
+ <br>
+ <br>
+ <h1>{{ role }}</h1>
 </template>
