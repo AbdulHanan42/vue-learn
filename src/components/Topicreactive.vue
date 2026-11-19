@@ -3,7 +3,7 @@
 import { reactive } from 'vue'
 
 const user = reactive({
-  name: 'Abdul Hanan',
+  name: 'Abdul',
   isActive: true
 })
 
