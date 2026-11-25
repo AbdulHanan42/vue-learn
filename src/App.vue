@@ -7,7 +7,7 @@ import Topicreactive from '@/components/Topicreactive.vue'
 </script>
 
 <template>
-    <div>Hello, This is the vue js learning tutorial</div>
+    
     <Aboutclass />
  <Hellocomp />
  <Navbar />
