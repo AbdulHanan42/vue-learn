@@ -7,7 +7,7 @@ import Topicreactive from '@/components/Topicreactive.vue'
 </script>
 
 <template>
-    
+    <div>Hello this is the first compoenent of the vue js 3</div>
     <Aboutclass />
  <Hellocomp />
  <Navbar />
